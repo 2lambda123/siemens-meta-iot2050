@@ -87,7 +87,6 @@ export default function SlotInfo ({ slotNum, configData, updateSlot }) {
     '6ES7231-5PD32-0XB0', // SM1231-4RTD
     '6ES7231-5PF32-0XB0', // SM1231-8RTD
     '6ES7231-4HF32-0XB0', // SM1231-8AI
-    '6ES7647-0CM00-1AA2', // SM SENS DI
     '6ES7238-5XA32-0XB0' // SM1238 Energy Meter 480VAC
   ];
 

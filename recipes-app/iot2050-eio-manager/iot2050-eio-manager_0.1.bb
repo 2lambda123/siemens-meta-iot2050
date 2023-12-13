@@ -41,7 +41,6 @@ SRC_URI += " \
     file://config-template/mlfb-6ES7231-4HF32-0XB0.yaml \
     file://config-template/mlfb-6ES7231-5PD32-0XB0.yaml \
     file://config-template/mlfb-6ES7231-5PF32-0XB0.yaml \
-    file://config-template/mlfb-6ES7647-0CM00-1AA2.yaml \
     file://config-template/mlfb-6ES7238-5XA32-0XB0.yaml \
     file://config-template/mlfb-NA.yaml \
     "
@@ -97,7 +96,6 @@ do_install() {
     install -v -m 644 ${WORKDIR}/config-template/mlfb-6ES7231-4HF32-0XB0.yaml ${D}/usr/lib/iot2050/eio/config-template/
     install -v -m 644 ${WORKDIR}/config-template/mlfb-6ES7231-5PD32-0XB0.yaml ${D}/usr/lib/iot2050/eio/config-template/
     install -v -m 644 ${WORKDIR}/config-template/mlfb-6ES7231-5PF32-0XB0.yaml ${D}/usr/lib/iot2050/eio/config-template/
-    install -v -m 644 ${WORKDIR}/config-template/mlfb-6ES7647-0CM00-1AA2.yaml ${D}/usr/lib/iot2050/eio/config-template/
     install -v -m 644 ${WORKDIR}/config-template/mlfb-6ES7238-5XA32-0XB0.yaml ${D}/usr/lib/iot2050/eio/config-template/
     install -v -m 644 ${WORKDIR}/config-template/mlfb-NA.yaml ${D}/usr/lib/iot2050/eio/config-template/
 
